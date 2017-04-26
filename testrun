@@ -1,0 +1,12 @@
+. ~/.nvm/nvm.sh
+
+mkdir testrepo
+cd testrepo
+git init
+echo "<?php">test.php
+echo .>test.js
+echo .>test.scss
+git add .
+
+/root/devlib/pre-commit
+
